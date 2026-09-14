@@ -1,0 +1,45 @@
+# Local operating system and editor files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+.idea/
+.vscode/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+secrets/
+credentials*.json
+token*.json
+*.pem
+*.key
+
+# Participant-level and restricted material
+private/
+confidential/
+restricted/
+data/raw/
+data/interim/
+data/processed/
+data/identifiable/
+data/restricted/
+data/linkage/
+data/consent/
+data/recordings/
+data/transcripts/
+
+# Working files and generated caches
+work/
+tmp/
+temp/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Ruserdata
+node_modules/
